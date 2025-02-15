@@ -2,9 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-<<<<<<< HEAD
-=======
     <mapping directory="$PROJECT_DIR$/posenet-pytorch" vcs="Git" />
->>>>>>> 0ccbc03 (updated_files)
   </component>
 </project>
