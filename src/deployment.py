@@ -7,7 +7,8 @@ from ultralytics import YOLO
 
 # Load custom YOLO model for object detection and pose estimation
 current_dir = os.path.dirname(os.path.abspath(__file__))
-models_dir = os.path.dirname(current_dir)
+project_dir = os.path.dirname(current_dir)
+models_dir = os.path.join(project_dir, "models")
 custom_model_path = os.path.join(models_dir, "yolo11n.pt")  # Replace with custom trained model if available
 pose_model_path = os.path.join(models_dir, "yolov8n-pose.pt")
 
