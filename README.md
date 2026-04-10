@@ -18,3 +18,10 @@ This project aims to optimize workplace compliance and safety specifically tailo
 ## Project Documents
 
 - Please refer to the `project_docs/` folder for High-Level and Low-Level architecture diagrams, the CRISP-ML(Q) lifecycle list, technical documentations, and the project charter.
+
+## Project Structure
+
+- `models/`: Stores the YOLO (`.pt`) model weight files.
+- `notebooks/`: Contains the Jupyter notebooks for model development and testing.
+- `src/`: Contains source code, including `deployment.py` for the Streamlit web interface.
+- `project_docs/`: Documentation and architecture diagrams.
